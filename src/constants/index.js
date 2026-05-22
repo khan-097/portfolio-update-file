@@ -23,15 +23,6 @@ const counterItems = [
   { value: 100, suffix: "%", label: "Passion & Dedication" },
 ];
 
-const logoIconsList = [
-  { imgPath: "/images/logos/company-logo-1.png" },
-  { imgPath: "/images/logos/company-logo-2.png" },
-  { imgPath: "/images/logos/company-logo-3.png" },
-  { imgPath: "/images/logos/company-logo-4.png" },
-  { imgPath: "/images/logos/company-logo-5.png" },
-  { imgPath: "/images/logos/company-logo-6.png" },
-];
-
 const abilities = [
   {
     imgPath: "/images/seo.png",
