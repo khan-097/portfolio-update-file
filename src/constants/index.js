@@ -41,21 +41,7 @@ const abilities = [
   },
 ];
 
-const techStackImgs = [
-  { name: "HTML & CSS", imgPath: "/images/logos/react.png" },
-  { name: "JavaScript", imgPath: "/images/logos/python.svg" },
-  { name: "Three.js", imgPath: "/images/logos/three.png" },
-  { name: "Git & GitHub", imgPath: "/images/logos/git.svg" },
-  { name: "Photography", imgPath: "/images/logos/node.png" },
-];
 
-const techStackIcons = [
-  { name: "HTML & CSS", modelPath: "/models/react_logo-transformed.glb", scale: 1, rotation: [0, 0, 0] },
-  { name: "JavaScript", modelPath: "/models/python-transformed.glb", scale: 0.8, rotation: [0, 0, 0] },
-  { name: "Three.js", modelPath: "/models/three.js-transformed.glb", scale: 0.05, rotation: [0, 0, 0] },
-  { name: "Git & GitHub", modelPath: "/models/git-svg-transformed.glb", scale: 0.05, rotation: [0, -Math.PI / 4, 0] },
-  { name: "Node.js", modelPath: "/models/node-transformed.glb", scale: 5, rotation: [0, -Math.PI / 2, 0] },
-];
 
 const expCards = [
   {
@@ -101,26 +87,6 @@ const expLogos = [
   { name: "logo3", imgPath: "/images/logo3.png" },
 ];
 
-const testimonials = [
-  {
-    name: "মোঃ যুনাইদ খান",
-    mentions: "@junaid.khan.097",
-    review: "আমি বিশ্বাস করি — শেখার কোনো শেষ নেই। প্রতিদিন নতুন কিছু শিখছি, নতুন কিছু বানাচ্ছি।",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "My Philosophy",
-    mentions: "@junaidkhan",
-    review: "ক্যামেরা হাতে নিলে দুনিয়াটা অন্যরকম দেখায়। আলো-ছায়ার খেলায় প্রতিটি মুহূর্ত অনন্য।",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "My Goal",
-    mentions: "@mdjunaidkhan097",
-    review: "একদিন এমন website বানাব যা মানুষ দেখে অবাক হবে। সেই স্বপ্নই আমাকে এগিয়ে যেতে অনুপ্রাণিত করে।",
-    imgPath: "/images/client3.png",
-  },
-];
 
 const socialImgs = [
   { name: "fb", imgPath: "/images/fb.png", url: "https://www.facebook.com/Junaid.Khan.097" },
@@ -130,6 +96,5 @@ const socialImgs = [
 
 export {
   words, abilities, logoIconsList, counterItems,
-  expCards, expLogos, testimonials, socialImgs,
-  techStackIcons, techStackImgs, navLinks,
+  expCards, expLogos, socialImgs, navLinks,
 };
